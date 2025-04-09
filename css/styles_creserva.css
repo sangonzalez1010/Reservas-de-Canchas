@@ -1,0 +1,102 @@
+/* Fondo de la página */
+body {
+    background-image: url('img/panel.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/* Título principal */
+h1, h2 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Mensajes de estado */
+.mensaje {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text-danger {
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+.text-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+/* Botones */
+.btn {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-primary:hover, .btn-danger:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Formulario */
+.form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-select {
+    border-radius: 5px;
+}
+
+.form-control {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Sección de horarios */
+#tabla_horarios {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#precio_total {
+    font-size: 18px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+/* Hover en las opciones del select */
+.form-select option:hover {
+    background-color: #f0f8ff;
+}
+
+/* Diseño del formulario y campos */
+.mb-3 {
+    margin-bottom: 20px;
+}

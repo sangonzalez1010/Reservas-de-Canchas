@@ -1,0 +1,61 @@
+/* Fondo de la página */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Estilo para la tarjeta */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+}
+
+/* Estilo del encabezado de la tarjeta */
+.card-header {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Padding del cuerpo de la tarjeta */
+.card-body {
+    padding: 30px;
+}
+
+/* Estilo del botón de guardar cambios */
+.btn-success {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Estilo del botón de cancelar */
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+/* Efecto hover para el botón de cancelar */
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* Estilo del encabezado */
+h4 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Estilo de las etiquetas */
+label {
+    font-weight: bold;
+}
+
+/* Margen y formato del enlace de volver */
+.text-center a {
+    margin-top: 20px;
+}

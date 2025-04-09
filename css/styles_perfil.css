@@ -1,0 +1,98 @@
+/* Fondo de la página */
+body {
+    background-image: url('img/panel.webp');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para las tarjetas */
+.card {
+    border-radius: 10px; /* Bordes redondeados para la tarjeta */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Estilos para los mensajes de éxito y error */
+.text-danger {
+    color: #dc3545; /* Color para mensajes de error */
+}
+
+.text-success {
+    color: #28a745; /* Color para mensajes de éxito */
+}
+
+/* Estilo para los formularios */
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 8px; /* Bordes redondeados para los campos de formulario */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary, .btn-warning, .btn-danger, .btn-secondary {
+    border-radius: 5px; /* Bordes redondeados para botones */
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover, .btn-warning:hover, .btn-danger:hover, .btn-secondary:hover {
+    background-color: #0069d9; /* Efecto hover para los botones */
+}
+
+.table {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+.table td {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1; /* Hover en las filas de la tabla */
+}
+
+/* Estilo para el encabezado */
+h1, h4 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+}
+
+/* Estilo para el formulario de perfil */
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* Espaciado para los formularios */
+.mb-3 {
+    margin-bottom: 1.5rem;
+}
+
+.mt-4 {
+    margin-top: 2rem;
+}

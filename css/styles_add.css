@@ -1,0 +1,92 @@
+/* 🎨 Fondo General */
+body {
+    font-family: Arial, sans-serif;
+    color: #333; /* Color de texto oscuro */
+    height: 100vh;
+}
+
+/* 🎮 Estilos de la Tarjeta */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 30px;
+}
+
+/* 🎨 Botones */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: black;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border: none;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+}
+
+.btn-sm {
+    padding: 5px 10px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+/* 🎨 Títulos */
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* 🎮 Formulario */
+.form-control {
+    border-radius: 8px;
+    padding: 12px;
+}
+
+/* 🎨 Fondo personalizado */
+body {
+    background: url('img/panel.webp') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff; /* Mantener texto blanco sobre el fondo */
+}

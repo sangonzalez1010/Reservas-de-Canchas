@@ -1,0 +1,57 @@
+/* Estilos para el login */
+body {
+    background-color: #f0f2f5;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+h2 {
+    color: white;
+}
+
+.form-label {
+    font-size: 1rem;
+}
+
+.form-control {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+a {
+    text-decoration: none;
+    font-size: 0.875rem;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Ajustes para móviles */
+@media (max-width: 576px) {
+    .container {
+        padding: 20px;
+        max-width: 90%;
+    }
+
+    .btn-success {
+        font-size: 1rem;
+    }
+}

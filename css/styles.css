@@ -1,0 +1,208 @@
+/* 🎨 Fondo general */
+body {
+    background-color: #f8f9fa; /* Color de fondo neutro */
+    color: #ececec; /* Color de texto oscuro */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    height: 100vh;
+}
+
+/* 🔳 Sidebar */
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    background: #343a40; /* Color más suave */
+    color: white;
+    padding-top: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+    border-right: 4px solid #007bff; /* Color de acento */
+    transition: all 0.3s;
+}
+
+/* 🏁 Animación en los enlaces del menú */
+.sidebar a {
+    color: #ffffff; /* Color blanco */
+    text-decoration: none;
+    padding: 12px 20px;
+    display: block;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+.sidebar a:hover {
+    background-color: #007bff; /* Color de acento */
+    color: #ffffff; /* Mantener el texto blanco */
+    border-radius: 5px;
+}
+
+/* Línea separadora en la sidebar */
+.sidebar hr {
+    border-color: #007bff;
+    width: 80%;
+    margin: 10px auto;
+}
+
+/* 🏆 Logo */
+.logo {
+    width: 120px; /* Tamaño ajustado para que no se distorsione */
+    height: auto; /* Mantener proporciones */
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%; /* Permite que el logo se ajuste al contenedor */
+}
+
+/* 📌 Contenido Principal */
+.content {
+    margin-left: 270px;
+    padding: 20px;
+    transition: margin-left 0.3s;
+}
+
+/* 🎮 Tarjetas Deportivas */
+.sport-card {
+    background: #ffffff; /* Fondo blanco */
+    border: 1px solid #dee2e6; /* Borde sutil */
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.sport-card:hover {
+    transform: scale(1.02); /* Efecto de escala más sutil */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Sombra más suave */
+}
+
+/* 📸 Imágenes dentro de las tarjetas */
+.sport-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 3px solid #007bff; /* Color de acento */
+}
+
+/* 🔘 Botones Personalizados */
+.btn-primary {
+    background-color: #007bff; /* Color estándar de Bootstrap */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: black;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #d39e00;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border: none;
+}
+
+.btn-dark {
+    background-color: #343a40;
+    border: none;
+}
+
+/* 📩 Estilo para el mensaje de bienvenida */
+.alert {
+    background-color: rgba(0, 123, 255, 0.5);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+/* 📱 RESPONSIVIDAD */
+@media (max-width: 1024px) {
+    .sidebar {
+        width: 200px;
+    }
+
+    .content {
+        margin-left: 210px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px;
+        background: #343a40; /* Color de fondo de la sidebar */
+    }
+
+    .sidebar a {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .content {
+        margin-left: 0;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .sport-card img {
+        height: 140px;
+    }
+
+    .logo {
+        width: 100px; /* Hacemos el logo más pequeño en pantallas móviles */
+        height: auto;
+    }
+
+    /* Mejora la visibilidad de los títulos */
+    .sport-card h5 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .sidebar {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 100;
+    }
+
+    .sidebar a {
+        font-size: 12px;
+    }
+
+    .content {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .sport-card img {
+        height: 120px;
+    }
+
+    .sport-card h5 {
+        font-size: 14px;
+    }
+
+    /* Logo pequeño para móviles */
+    .logo {
+        width: 80px;
+    }
+}

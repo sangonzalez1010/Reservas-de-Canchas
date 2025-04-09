@@ -1,0 +1,102 @@
+/* 🎨 Fondo General */
+body {
+    font-family: Arial, sans-serif;
+    color: #333; /* Color de texto oscuro */
+    height: 100vh;
+    background: url('img/fondo-3.webp') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff; /* Mantener texto blanco sobre el fondo */
+}
+
+/* 🎮 Estilos de la Tabla */
+.table-responsive {
+    margin-top: 20px;
+}
+
+.table {
+    border-radius: 8px;
+    border-collapse: collapse;
+}
+
+.table-bordered {
+    border: 1px solid #ddd;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+    padding: 12px 15px;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    color: #333; /* Color oscuro para los encabezados */
+    font-weight: bold;
+}
+
+.table td {
+    background-color: #fff;
+}
+
+/* Botones */
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: black;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border: none;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+}
+
+.btn-sm {
+    padding: 5px 10px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+/* 🎨 Títulos */
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+}
